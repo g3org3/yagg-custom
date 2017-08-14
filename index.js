@@ -1,11 +1,16 @@
 #! /usr/bin/env node
 
-const _gen = require('yagg')(__dirname)
+const yagg = require('yagg')(__dirname)
 
-// My Custom Generator
+// Tokens to be replaced in /app
 const context = {
   generatorName: 'changeMe'
 }
 
-// clone app
-_gen.cloneTemplateStructure(context)
+// node modules to be installed
+const deps = [
+  'yagg'
+]
+
+yagg.cloneTemplateStructure(context)
+yagg.installDeps(deps)
