@@ -12,6 +12,6 @@
     "yagg-custom": "index.js"
   },
   "dependencies": {
-    "yagg": "^0.1.0"
+    "yagg": "^0.4.0"
   }
 }
