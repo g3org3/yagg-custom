@@ -13,4 +13,4 @@ const deps = [
 ]
 
 yagg.cloneTemplateStructure(context)
-yagg.installDeps(deps)
+yagg.installDependencies(deps)
