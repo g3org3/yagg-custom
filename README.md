@@ -2,11 +2,9 @@
 
 ## Usage
 ```bash
-npm i -g yagg-custom
-
-mkdir yagg-my-generator
-yagg-custom
-
+npm i -g yagg
+yagg add custom
+yagg run custom
 ```
 
 ```bash

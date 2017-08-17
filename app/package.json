@@ -1,14 +1,11 @@
 {
-  "name": "yagg-#{generatorName}",
+  "name": "yagg-#{projectName}",
   "version": "0.0.1",
-  "description": "",
+  "description": "#{description}",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "#{name} <#{email}>",
   "license": "UNLICENSED",
-  "bin": {
-    "yagg-#{generatorName}": "index.js"
-  }
 }

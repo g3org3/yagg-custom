@@ -1,16 +1,20 @@
-#! /usr/bin/env node
-
-const yagg = require('yagg')(__dirname)
-
-// Tokens to be replaced in /app
-const context = {
-  generatorName: 'changeMe'
+module.exports = {
+  __dirname,
+  questions: {
+    description: {
+      message: 'Enter a small description',
+      type: 'input',
+      default: 'A sample template with yagg'
+    },
+    email: {
+      message: 'Enter your email',
+      type: 'input',
+      default: ''
+    },
+    name: {
+      message: 'Enter your name',
+      type: 'input',
+      default: ''
+    }
+  }
 }
-
-// node modules to be installed
-const deps = [
-  'yagg'
-]
-
-yagg.cloneTemplateStructure(context)
-yagg.installDependencies(deps)

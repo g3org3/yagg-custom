@@ -1,6 +1,6 @@
 {
   "name": "yagg-custom",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,7 @@
   },
   "author": "George <7jagjag@gmail.com>",
   "license": "MIT",
-  "bin": {
-    "yagg-custom": "index.js"
-  },
   "dependencies": {
-    "yagg": "^0.5.0"
+    "yagg": "^1.0.0"
   }
 }
