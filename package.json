@@ -1,14 +1,11 @@
 {
   "name": "yagg-custom",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "George <7jagjag@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "yagg": "^1.0.0"
-  }
+  "license": "MIT"
 }

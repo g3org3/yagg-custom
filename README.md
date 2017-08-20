@@ -4,7 +4,7 @@
 ```bash
 npm i -g yagg
 yagg add custom
-yagg run custom
+yagg new custom
 ```
 
 ```bash
